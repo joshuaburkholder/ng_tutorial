@@ -1,0 +1,36 @@
+h1, h2, ul, font{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif
+}
+
+ul{
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    flex-basis: 30%;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    height: 100%;
+    min-height: 85px;
+    width: 12rem;
+    background: #DD0031;
+    border: .25rem solid #C3002F;
+}
+
+button:hover{
+    background: white;
+}
+
+button:hover a{
+    color: #C3002F;
+}

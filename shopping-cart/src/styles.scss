@@ -1,7 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
 
-$primary-color: #000000;
+$primary-color: #DD0031;
+$secondary-color: #C3002F;
+$tertiary-color: pink;
 
 body{
-    background-color: $primary-color;
+    background-color: $tertiary-color;
+}
+
+
+h1, h2, ul, font{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-shadow: 3px 3px 3px grey;
+}
+
+
+ul{
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    flex-basis: 30%;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: .25rem .25rem .25rem black;
+    
+}
+
+button{
+    height: 100%;
+    min-height: 85px;
+    width: 12rem;
+    background: #DD0031;
+    border: .25rem solid #C3002F;
+}
+
+button:hover{
+    background: white;
+}
+
+button:hover a{
+    color: #C3002F;
 }

@@ -1,9 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'courses',
     template: '<h2>Courses</h2>'
 })
 export class CoursesComponent {
+    constructor(){
 
+    }
+
+    ngOnInit(){
+        
+    }
 }

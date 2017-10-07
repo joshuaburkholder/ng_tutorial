@@ -1,3 +1,4 @@
+import { CoursesService } from './courses.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -15,6 +16,8 @@ export class CoursesComponent {
     title = "List of courses";
     courses;
 
-    //Logic for calling an HTTP service
-    
+    constructor(service: CoursesService){
+        this.courses = service.getCourses();
+    }
+
 }
